@@ -520,15 +520,7 @@ class TestGetHtmlMethod(BaseTestXmodule):
         # create test profiles and their encodings
         encoded_videos = []
         for profile, extension in [("desktop_webm", "webm"), ("desktop_mp4", "mp4")]:
-            result = create_profile(
-                dict(
-                    profile_name=profile,
-                    extension=extension,
-                    width=200,
-                    height=2001
-                )
-            )
-            self.assertEqual(result, profile)
+            create_profile(profile)
             encoded_videos.append(
                 dict(
                     url=u"http://fake-video.edx.org/thundercats.{}".format(extension),
