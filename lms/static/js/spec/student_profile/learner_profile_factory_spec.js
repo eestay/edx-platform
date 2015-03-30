@@ -139,12 +139,69 @@ define(['backbone', 'jquery', 'underscore', 'js/common_helpers/ajax_helpers', 'j
                 Helpers.expectLoadingErrorIsVisible(learnerProfileView, false);
                 LearnerProfileHelpers.expectProfileSectionsNotToBeRendered(learnerProfileView);
 
-                AjaxHelpers.respondWithJson(requests, Helpers.USER_ACCOUNTS_DATA);
+                var accountSettingsData = Helpers.USER_ACCOUNTS_DATA;
+                accountSettingsData['year_of_birth'] = 1989;
+                accountSettingsData['requires_parental_consent'] = false;
+
+                AjaxHelpers.respondWithJson(requests, accountSettingsData);
                 AjaxHelpers.respondWithJson(requests, Helpers.USER_PREFERENCES_DATA);
 
                 // sets the profile for full view.
                 context.accountPreferencesModel.set({account_privacy: 'all_users'});
                 LearnerProfileHelpers.expectProfileSectionsAndFieldsToBeRendered(learnerProfileView, false)
+            });
+
+            it("renders the limited profile for undefined 'year_of_birth'", function() {
+
+                requests = AjaxHelpers.requests(this);
+
+                var context = LearnerProfilePage({
+                    'accounts_api_url': Helpers.USER_ACCOUNTS_API_URL,
+                    'preferences_api_url': Helpers.USER_PREFERENCES_API_URL,
+                    'own_profile': true,
+                    'account_settings_page_url': Helpers.USER_ACCOUNTS_API_URL,
+                    'country_options': Helpers.FIELD_OPTIONS,
+                    'language_options': Helpers.FIELD_OPTIONS,
+                    'has_preferences_access': true
+                }),
+                    learnerProfileView = context.learnerProfileView;
+
+                Helpers.expectLoadingIndicatorIsVisible(learnerProfileView, true);
+                Helpers.expectLoadingErrorIsVisible(learnerProfileView, false);
+                LearnerProfileHelpers.expectProfileSectionsNotToBeRendered(learnerProfileView);
+
+                AjaxHelpers.respondWithJson(requests, Helpers.USER_ACCOUNTS_DATA);
+                AjaxHelpers.respondWithJson(requests, Helpers.USER_PREFERENCES_DATA);
+
+                LearnerProfileHelpers.expectLimitedProfileSectionsAndFieldsToBeRendered(learnerProfileView)
+            });
+
+            it("renders the limited profile for under 13 users", function() {
+
+                requests = AjaxHelpers.requests(this);
+
+                var context = LearnerProfilePage({
+                    'accounts_api_url': Helpers.USER_ACCOUNTS_API_URL,
+                    'preferences_api_url': Helpers.USER_PREFERENCES_API_URL,
+                    'own_profile': true,
+                    'account_settings_page_url': Helpers.USER_ACCOUNTS_API_URL,
+                    'country_options': Helpers.FIELD_OPTIONS,
+                    'language_options': Helpers.FIELD_OPTIONS,
+                    'has_preferences_access': true
+                }),
+                    learnerProfileView = context.learnerProfileView;
+
+                Helpers.expectLoadingIndicatorIsVisible(learnerProfileView, true);
+                Helpers.expectLoadingErrorIsVisible(learnerProfileView, false);
+                LearnerProfileHelpers.expectProfileSectionsNotToBeRendered(learnerProfileView);
+
+                var accountSettingsData = Helpers.USER_ACCOUNTS_DATA;
+                accountSettingsData['requires_parental_consent'] = true;
+
+                AjaxHelpers.respondWithJson(requests, accountSettingsData);
+                AjaxHelpers.respondWithJson(requests, Helpers.USER_PREFERENCES_DATA);
+
+                LearnerProfileHelpers.expectLimitedProfileSectionsAndFieldsToBeRendered(learnerProfileView)
             });
         });
     });
