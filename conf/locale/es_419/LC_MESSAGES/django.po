@@ -61,7 +61,6 @@
 # Natalia, 2013
 # Natalia, 2014
 # Valeria Freire <valtodopds@hotmail.com>, 2014
-# #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2015 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
@@ -184,11 +183,9 @@ msgstr "Panel de Problemas Abiertos"
 msgid "Notes"
 msgstr "Notas"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: "Discussion" is the title of the course forum page
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
 #. the discussion forums
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a forum post type
 #: cms/djangoapps/contentstore/views/component.py
 #: common/lib/xmodule/xmodule/tabs.py
@@ -515,7 +512,6 @@ msgstr "Formación media"
 msgid "Elementary/primary school"
 msgstr "Primaria"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models.py
 #: common/lib/xmodule/xmodule/course_module.py cms/templates/settings.html
@@ -1421,10 +1417,8 @@ msgstr "Entrada de texto"
 msgid "error"
 msgstr "error"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: Separator used in StringResponse to display multiple answers.
 #. Example: "Answer: Answer_1 or Answer_2 or Answer_3".
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is the last choice of a number of choices of how to log
 #. in
 #. to the site.
@@ -3678,7 +3672,6 @@ msgid "This content experiment has issues that affect content visibility."
 msgstr ""
 "Este contenido tiene algunos inconvenientes que afectan su visibilidad."
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Courseware' refers to the tab in the courseware that leads to
 #. the content of a course
 #: common/lib/xmodule/xmodule/tabs.py
@@ -3693,7 +3686,6 @@ msgstr "Contenidos"
 msgid "Course Info"
 msgstr "Información del curso"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: "Progress" is the name of the student's course progress page
 #: common/lib/xmodule/xmodule/tabs.py
 #: lms/templates/peer_grading/peer_grading.html
@@ -3711,7 +3703,6 @@ msgstr "Wiki"
 msgid "Textbooks"
 msgstr "Libros de texto"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: "Staff grading" appears on a tab that allows
 #. staff to view open-ended problems that require staff grading
 #: common/lib/xmodule/xmodule/tabs.py
@@ -3725,7 +3716,6 @@ msgstr "Calificación del Personal de soporte"
 msgid "Peer grading"
 msgstr "Calificación de pares"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: "Syllabus" appears on a tab that, when clicked, opens the
 #. syllabus of the course.
 #: common/lib/xmodule/xmodule/tabs.py lms/templates/courseware/syllabus.html
@@ -5447,7 +5437,6 @@ msgstr "Los códigos de registro para la factura {0} han sido reactivados."
 msgid "User ID"
 msgstr "ID de usuario"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's email address.
 #. Translators: This label appears above a field on the registration form
@@ -5474,7 +5463,6 @@ msgstr "Ubicación"
 msgid "Birth Year"
 msgstr "Año de nacimiento"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's gender.
 #: lms/djangoapps/instructor/views/api.py
@@ -5951,7 +5939,6 @@ msgstr "re calificado"
 msgid "reset"
 msgstr "reiniciado"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
@@ -7795,7 +7782,6 @@ msgstr "Guardar cambios"
 msgid "Preview"
 msgstr "Vista previa"
 
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a control to allow users to exit out of this modal
 #. interface (a menu or piece of UI that takes the full focus of the screen)
 #: lms/templates/wiki/edit.html lms/templates/wiki/history.html
@@ -7817,7 +7803,6 @@ msgstr "Cerrar"
 msgid "Wiki Preview"
 msgstr "Vista previa de la Wiki"
 
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this text gives status on if the modal interface (a menu or
 #. piece of UI that takes the full focus of the screen) is open or not
 #: lms/templates/wiki/edit.html lms/templates/wiki/history.html
@@ -8165,7 +8150,6 @@ msgstr ""
 "La dirección de correo electrónico que utilizó para registrarse con "
 "{platform_name}"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
@@ -8227,14 +8211,12 @@ msgstr ""
 msgid "Highest level of education completed"
 msgstr "Máximo nivel educativo completado"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's year of birth.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/signup_modal.html
 msgid "Year of birth"
 msgstr "Año de nacimiento"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's mailing address.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/signup_modal.html
@@ -8245,7 +8227,6 @@ msgstr "Dirección de correspondencia"
 msgid "Tell us why you're interested in {platform_name}"
 msgstr "Cuéntenos por qué está interesado en {platform_name}"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the city in which they live.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/register.html
@@ -8254,7 +8235,6 @@ msgstr "Cuéntenos por qué está interesado en {platform_name}"
 msgid "City"
 msgstr "Ciudad"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/register.html
@@ -8267,7 +8247,6 @@ msgstr "País"
 msgid "Please select your Country."
 msgstr "Por favor seleccione su país."
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/footer-edx-new.html
@@ -8283,7 +8262,6 @@ msgid "You must agree to the {platform_name} {terms_of_service}."
 msgstr ""
 "Usted debe estar de acuerdo con la  {platform_name} {terms_of_service}."
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: openedx/core/djangoapps/user_api/views.py cms/templates/widgets/footer.html
