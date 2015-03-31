@@ -229,7 +229,7 @@ define(['backbone', 'jquery', 'underscore', 'js/common_helpers/ajax_helpers', 'j
                 AjaxHelpers.respondWithJson(requests, accountSettingsData);
                 AjaxHelpers.respondWithJson(requests, Helpers.USER_PREFERENCES_DATA);
 
-                LearnerProfileHelpers.expectLimitedProfileSectionsAndFieldsToBeRendered(learnerProfileView)
+                LearnerProfileHelpers.expectLimitedProfileSectionsAndFieldsToBeRendered(learnerProfileView, true)
             });
         });
     });
