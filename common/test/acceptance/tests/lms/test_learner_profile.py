@@ -112,7 +112,7 @@ class LearnerProfilePageTest(WebAppTest):
         self.account_settings_page.wait_for_page()
         self.assertEqual(self.account_settings_page.value_for_dropdown_field('year_of_birth', birth_year), birth_year)
 
-    def verify_age_limit(self, birth_year, message=None):
+    def verify_profile_forced_private_message(self, birth_year, message=None):
         """
         Verify age limit messages for a user.
         """
@@ -120,7 +120,7 @@ class LearnerProfilePageTest(WebAppTest):
         self.visit_my_profile_page(self.MY_USER)
         self.assertTrue(self.my_profile_page.privacy_field_visible)
         self.assertEqual(self.my_profile_page.age_limit_message_present, message is not None)
-        self.assertIn(message, self.my_profile_page.age_limit_message)
+        self.assertIn(message, self.my_profile_page.profile_forced_private_message)
 
     def test_dashboard_learner_profile_link(self):
         """
@@ -335,7 +335,7 @@ class LearnerProfilePageTest(WebAppTest):
         Then i should see message `Your profile is disabled because you haven't filled in your Year of Birth.`
         """
         message = "You must specify your birth year before you can share your full profile."
-        self.verify_age_limit('', message=message)
+        self.verify_profile_forced_private_message('', message=message)
 
     def test_user_is_under_age(self):
         """
@@ -346,4 +346,4 @@ class LearnerProfilePageTest(WebAppTest):
         And i visit my profile page.
         Then i should see message `You must be over 13 to share a full profile.`
         """
-        self.verify_age_limit('2010', message='You must be over 13 to share a full profile.')
+        self.verify_profile_forced_private_message('2010', message='You must be over 13 to share a full profile.')

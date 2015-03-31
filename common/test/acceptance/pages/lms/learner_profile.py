@@ -151,7 +151,7 @@ class LearnerProfilePage(FieldsMixin, PageObject):
         EmptyPromise(lambda: self.field_is_visible('bio'), 'About Me field is visible').fulfill()
 
     @property
-    def age_limit_message(self):
+    def profile_forced_private_message(self):
         """
         Returns age limit message.
         """
