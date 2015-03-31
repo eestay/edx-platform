@@ -203,5 +203,33 @@ define(['backbone', 'jquery', 'underscore', 'js/common_helpers/ajax_helpers', 'j
 
                 LearnerProfileHelpers.expectLimitedProfileSectionsAndFieldsToBeRendered(learnerProfileView)
             });
+
+            it("renders the limited profile for other user who is under 13", function() {
+
+                requests = AjaxHelpers.requests(this);
+
+                var context = LearnerProfilePage({
+                    'accounts_api_url': Helpers.USER_ACCOUNTS_API_URL,
+                    'preferences_api_url': Helpers.USER_PREFERENCES_API_URL,
+                    'own_profile': false,
+                    'account_settings_page_url': Helpers.USER_ACCOUNTS_API_URL,
+                    'country_options': Helpers.FIELD_OPTIONS,
+                    'language_options': Helpers.FIELD_OPTIONS,
+                    'has_preferences_access': true
+                }),
+                    learnerProfileView = context.learnerProfileView;
+
+                Helpers.expectLoadingIndicatorIsVisible(learnerProfileView, true);
+                Helpers.expectLoadingErrorIsVisible(learnerProfileView, false);
+                LearnerProfileHelpers.expectProfileSectionsNotToBeRendered(learnerProfileView);
+
+                var accountSettingsData = Helpers.USER_ACCOUNTS_DATA;
+                accountSettingsData['requires_parental_consent'] = true;
+
+                AjaxHelpers.respondWithJson(requests, accountSettingsData);
+                AjaxHelpers.respondWithJson(requests, Helpers.USER_PREFERENCES_DATA);
+
+                LearnerProfileHelpers.expectLimitedProfileSectionsAndFieldsToBeRendered(learnerProfileView)
+            });
         });
     });

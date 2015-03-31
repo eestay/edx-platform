@@ -13,11 +13,11 @@
             },
 
             showFullProfile: function () {
+                var isAboveMinimumAge = this.options.accountSettingsModel.isAboveMinimumAge();
                 if (this.options.own_profile) {
-                    var isAboveMinimumAge = this.options.accountSettingsModel.isAboveMinimumAge();
                     return isAboveMinimumAge && this.options.preferencesModel.get('account_privacy') === 'all_users';
                 } else {
-                    return this.options.accountSettingsModel.get('profile_is_public');
+                    return isAboveMinimumAge && this.options.accountSettingsModel.get('profile_is_public');
                 }
             },
 
