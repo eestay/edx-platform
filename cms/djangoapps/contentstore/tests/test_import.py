@@ -10,7 +10,6 @@ from django.test.utils import override_settings
 from django.conf import settings
 import ddt
 import copy
-from mock import patch
 
 from openedx.core.djangoapps.content.course_structures.tests import SignalDisconnectTestMixin
 from xmodule.modulestore.tests.django_utils import ModuleStoreTestCase
@@ -29,8 +28,7 @@ TEST_DATA_DIR = settings.COMMON_TEST_DATA_ROOT
 
 
 @ddt.ddt
-@override_settings(CONTENTSTORE=TEST_DATA_CONTENTSTORE)
-@patch('django.conf.settings.SEARCH_ENGINE', None)
+@override_settings(CONTENTSTORE=TEST_DATA_CONTENTSTORE, SEARCH_ENGINE=None)
 class ContentStoreImportTest(SignalDisconnectTestMixin, ModuleStoreTestCase):
     """
     Tests that rely on the toy and test_import_course courses.

@@ -22,6 +22,7 @@ from search.search_engine_base import SearchEngine
 
 
 @ddt.ddt
+@patch('django.conf.settings.SEARCH_ENGINE', 'search.tests.mock_search_engine.MockSearchEngine')
 class TestCoursewareSearchIndexer(MixedSplitTestCase):
     """ Tests the operation of the CoursewareSearchIndexer """
     HOST = MONGO_HOST
