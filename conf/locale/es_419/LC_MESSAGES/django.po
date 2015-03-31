@@ -278,13 +278,8 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py
 #: openedx/core/djangoapps/user_api/views.py
 #: lms/templates/static_templates/honor.html
-#, fuzzy
 msgid "Honor Code"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Codigo de Honor\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Código de Honor"
+msgstr "Código de Honor"
 
 #: common/djangoapps/course_modes/models.py
 msgid "You're auditing this course"
@@ -5177,13 +5172,8 @@ msgid "Courses loaded in the modulestore"
 msgstr "Cursos cargados en la bodega de módulos"
 
 #: lms/djangoapps/dashboard/sysadmin.py lms/templates/tracking_log.html
-#, fuzzy
 msgid "username"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Nombre de usuario\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"nombre de usuario"
+msgstr "nombre de usuario"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "email"
@@ -8270,13 +8260,8 @@ msgstr "Ciudad"
 #: openedx/core/djangoapps/user_api/views.py lms/templates/register.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 #: lms/templates/shoppingcart/receipt.html
-#, fuzzy
 msgid "Country"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Pais\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"País"
+msgstr "País"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Please select your Country."
@@ -8286,13 +8271,8 @@ msgstr "Por favor seleccione su país."
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/footer-edx-new.html
-#, fuzzy
 msgid "Terms of Service and Honor Code"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Términos del servicio y código de honor\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Términos del Servicio y Código de Honor"
+msgstr "Términos del Servicio y Código de Honor"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "I agree to the {platform_name} {terms_of_service}."
@@ -8308,13 +8288,8 @@ msgstr ""
 #. in order to register a new account.
 #: openedx/core/djangoapps/user_api/views.py cms/templates/widgets/footer.html
 #: lms/templates/footer.html lms/templates/static_templates/tos.html
-#, fuzzy
 msgid "Terms of Service"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Términos de Servicio\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Términos del servicio"
+msgstr "Términos del servicio"
 
 #: openedx/core/djangoapps/user_api/accounts/api.py
 msgid "Field '{field_name}' cannot be edited."
