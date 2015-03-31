@@ -17,7 +17,7 @@
                 if (this.options.own_profile) {
                     return isAboveMinimumAge && this.options.preferencesModel.get('account_privacy') === 'all_users';
                 } else {
-                    return isAboveMinimumAge && this.options.accountSettingsModel.get('profile_is_public');
+                    return this.options.accountSettingsModel.get('profile_is_public');
                 }
             },
 
