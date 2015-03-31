@@ -4,8 +4,6 @@
         'gettext', 'jquery', 'underscore', 'backbone', 'js/mustache', 'js/views/fields'
     ], function (gettext, $, _, Backbone, RequireMustache, FieldViews) {
 
-        var Mustache = window.Mustache || RequireMustache;
-
         var AccountSettingsFieldViews = {};
 
         AccountSettingsFieldViews.EmailFieldView = FieldViews.TextFieldView.extend({
@@ -79,7 +77,7 @@
                     gettext('We\'ve sent a message to {email_address}. Click the link in the message to reset your password.'),
                     {'email_address': this.model.get(this.options.emailAttribute)}
                 );
-            },
+            }
         });
 
         AccountSettingsFieldViews.LanguageProficienciesFieldView = FieldViews.DropdownFieldView.extend({
@@ -166,7 +164,7 @@
 
             successMessage: function() {
                 return this.indicators['success'] + gettext('Successfully unlinked.');
-            },
+            }
         });
 
         return AccountSettingsFieldViews;

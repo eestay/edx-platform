@@ -6,7 +6,7 @@
         'js/student_account/models/user_account_model',
         'js/student_account/models/user_preferences_model',
         'js/student_account/views/account_settings_fields',
-        'js/student_account/views/account_settings_view',
+        'js/student_account/views/account_settings_view'
     ], function (gettext, $, _, Backbone, FieldViews, UserAccountModel, UserPreferencesModel,
                  AccountSettingsFieldViews, AccountSettingsView) {
 
@@ -116,7 +116,7 @@
                             })
                         }
                     ]
-                },
+                }
             ];
 
             if (_.isArray(authData.providers)) {
