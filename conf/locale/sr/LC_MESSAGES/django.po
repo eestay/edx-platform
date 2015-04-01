@@ -6,6 +6,7 @@
 # Translators:
 # Jovana Zivkovic <zivkovicjovana@live.com>, 2015
 # Marko Zivkovic <marko.xc@gmail.com>, 2014
+# Milos Milosevic <w17o5k3@gmail.com>, 2015
 # Sanja Miljkovic <sanjamiljkovic97@yahoo.com>, 2015
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file.

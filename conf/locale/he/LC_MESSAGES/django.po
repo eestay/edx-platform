@@ -21,6 +21,7 @@
 # Bentsi Magidovich <bentsi@yeda.org.il>, 2015
 # dotanlaks <dotanlaks6@gmail.com>, 2014
 # dotanlaks <dotanlaks6@gmail.com>, 2014
+# Nadav Stark <nadav@yeda.org.il>, 2015
 # Shay Nativ <shay@yeda.org.il>, 2015
 # yuval zana, 2015
 # yuval zana, 2015
@@ -47,12 +48,13 @@
 # Translators:
 # Bentsi Magidovich <bentsi@yeda.org.il>, 2015
 # Ido, 2014
+# Nadav Stark <nadav@yeda.org.il>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2015-03-30 12:44+0000\n"
-"PO-Revision-Date: 2015-03-30 08:21+0000\n"
+"PO-Revision-Date: 2015-03-31 17:04+0000\n"
 "Last-Translator: Bentsi Magidovich <bentsi@yeda.org.il>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/edx-platform/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -12883,7 +12885,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Reload Graphs"
-msgstr ""
+msgstr "רענן גרפים"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Subsection Data"
@@ -13644,15 +13646,15 @@ msgstr ""
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Credit Card Number"
-msgstr ""
+msgstr "מספר כרטיס אשראי"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Address 1"
-msgstr ""
+msgstr "כתובת 1"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Address 2"
-msgstr ""
+msgstr "כתובת 2"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "State"
@@ -17433,11 +17435,11 @@ msgstr ""
 
 #: wiki/forms.py
 msgid "Contents"
-msgstr ""
+msgstr "תוכן"
 
 #: wiki/forms.py
 msgid "Summary"
-msgstr ""
+msgstr "סיכום"
 
 #: wiki/forms.py
 msgid ""
@@ -17760,6 +17762,8 @@ msgid ""
 "The revision of this attachment currently in use (on all articles using the "
 "attachment)"
 msgstr ""
+"גירסה של הקובץ המצורף נמצאת בשימוש כעת (לכל המאמרים העושים שימוש בקובץ "
+"המצורף)"
 
 #: wiki/plugins/attachments/models.py
 msgid "original filename"
@@ -17925,7 +17929,7 @@ msgstr ""
 
 #: wiki/plugins/notifications/models.py
 msgid "Article deleted: %s"
-msgstr ""
+msgstr "מאמר נמחק: %s"
 
 #: wiki/plugins/notifications/models.py
 msgid "Article modified: %s"
@@ -17985,7 +17989,7 @@ msgstr ""
 
 #: wiki/views/article.py
 msgid "Restoring article"
-msgstr ""
+msgstr "משחזר מאמר"
 
 #: wiki/views/article.py
 msgid "The article \"%s\" and its children are now restored."

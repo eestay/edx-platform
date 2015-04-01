@@ -61,7 +61,7 @@
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
-# Adam Banasiak <elserwis@gmail.com>, 2014
+# Adam Banasiak <inactive+adamba@transifex.com>, 2014
 # Bart <info@archimedesign.co.uk>, 2015
 # Grzegorz <john.doe.gg@gmail.com>, 2014
 # Jaroslaw Lukawski <sekretariat@kmti.uz.zgora.pl>, 2014

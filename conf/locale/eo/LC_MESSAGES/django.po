@@ -37,8 +37,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2015-03-30 12:56+0000\n"
-"PO-Revision-Date: 2015-03-30 12:56:18.929777\n"
+"POT-Creation-Date: 2015-04-01 10:06-0400\n"
+"PO-Revision-Date: 2015-04-01 14:06:19.550389\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -1514,6 +1514,10 @@ msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr ""
 "Thïs nämé äppéärs ïn thé hörïzöntäl nävïgätïön ät thé töp öf thé pägé. "
 "Ⱡ'σяєм ιρѕυм ∂σłσя ѕι#"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid "Blank Advanced Problem"
+msgstr "Blänk Àdvänçéd Prößlém Ⱡ'σяє#"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -9185,6 +9189,22 @@ msgid "Dashboard"
 msgstr "Däshßöärd #"
 
 #: lms/templates/dashboard.html
+msgid "Current Courses"
+msgstr "Çürrént Çöürsés Ⱡ'#"
+
+#: lms/templates/dashboard.html
+msgid "Looks like you haven't enrolled in any courses yet."
+msgstr "Lööks lïké ýöü hävén't énrölléd ïn äný çöürsés ýét. Ⱡ'σяєм ιρѕυм ∂#"
+
+#: lms/templates/dashboard.html
+msgid "Find courses now!"
+msgstr "Fïnd çöürsés nöw! Ⱡ'σ#"
+
+#: lms/templates/dashboard.html
+msgid "Course-loading errors"
+msgstr "Çöürsé-löädïng érrörs Ⱡ'σя#"
+
+#: lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_info_language.html
 msgid "edit"
 msgstr "édït Ⱡ'σяєм#"
@@ -9231,22 +9251,6 @@ msgstr "Ördér Hïstörý Ⱡ'#"
 #: lms/templates/dashboard.html
 msgid "Reset Password"
 msgstr "Rését Pässwörd Ⱡ'#"
-
-#: lms/templates/dashboard.html
-msgid "Current Courses"
-msgstr "Çürrént Çöürsés Ⱡ'#"
-
-#: lms/templates/dashboard.html
-msgid "Looks like you haven't enrolled in any courses yet."
-msgstr "Lööks lïké ýöü hävén't énrölléd ïn äný çöürsés ýét. Ⱡ'σяєм ιρѕυм ∂#"
-
-#: lms/templates/dashboard.html
-msgid "Find courses now!"
-msgstr "Fïnd çöürsés nöw! Ⱡ'σ#"
-
-#: lms/templates/dashboard.html
-msgid "Course-loading errors"
-msgstr "Çöürsé-löädïng érrörs Ⱡ'σя#"
 
 #: lms/templates/dashboard.html
 msgid "Email Settings for {course_number}"
@@ -11438,10 +11442,6 @@ msgid "{course_number} Courseware"
 msgstr "{course_number} Çöürséwäré Ⱡ'#"
 
 #: lms/templates/courseware/courseware.html
-msgid "Return to Exam"
-msgstr "Rétürn tö Éxäm Ⱡ'#"
-
-#: lms/templates/courseware/courseware.html
 msgid "Course Search"
 msgstr "Çöürsé Séärçh Ⱡ'#"
 
@@ -11849,6 +11849,7 @@ msgid "About {course_id}"
 msgstr "Àßöüt {course_id} #"
 
 #: lms/templates/courseware/mktg_coming_soon.html
+#: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Coming Soon"
 msgstr "Çömïng Söön Ⱡ#"
 
@@ -12105,20 +12106,59 @@ msgid "Enrolled as: "
 msgstr "Énrölléd äs:  Ⱡ'#"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Course Completed - {end_date}"
-msgstr "Çöürsé Çömplétéd - {end_date} Ⱡ'σяє#"
+msgid "Ended - {end_date}"
+msgstr "Éndéd - {end_date} Ⱡ#"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Course Started - {start_date}"
-msgstr "Çöürsé Stärtéd - {start_date} Ⱡ'σя#"
+msgid "Started - {start_date}"
+msgstr "Stärtéd - {start_date} Ⱡ'#"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Course has not yet started"
-msgstr "Çöürsé häs nöt ýét stärtéd Ⱡ'σяєм#"
+msgid "Starts - {start_date}"
+msgstr "Stärts - {start_date} Ⱡ#"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Course Starts - {start_date}"
-msgstr "Çöürsé Stärts - {start_date} Ⱡ'σя#"
+msgid "View Archived Course"
+msgstr "Vïéw Àrçhïvéd Çöürsé Ⱡ'σя#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+#: lms/templates/shoppingcart/registration_code_receipt.html
+msgid "View Course"
+msgstr "Vïéw Çöürsé Ⱡ#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Course options dropdown"
+msgstr "Çöürsé öptïöns dröpdöwn Ⱡ'σяє#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Additional Actions Menu"
+msgstr "Àddïtïönäl Àçtïöns Ménü Ⱡ'σяє#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Available Actions"
+msgstr "Àväïläßlé Àçtïöns Ⱡ'σ#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Are you sure you want to unenroll from the purchased course"
+msgstr ""
+"Àré ýöü süré ýöü wänt tö ünénröll fröm thé pürçhäséd çöürsé Ⱡ'σяєм ιρѕυм "
+"∂σłσ#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Are you sure you want to unenroll from"
+msgstr "Àré ýöü süré ýöü wänt tö ünénröll fröm Ⱡ'σяєм ιρѕ#"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid ""
+"Are you sure you want to unenroll from the verified {cert_name_long} track "
+"of"
+msgstr ""
+"Àré ýöü süré ýöü wänt tö ünénröll fröm thé vérïfïéd {cert_name_long} träçk "
+"öf Ⱡ'σяєм ιρѕυм ∂σłσя #"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html
+msgid "Email Settings"
+msgstr "Émäïl Séttïngs Ⱡ'#"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Verification not yet complete."
@@ -12210,37 +12250,6 @@ msgstr ""
 "höldér{contact_link_end} tö réqüést päýmént, ör ýöü çän "
 "{unenroll_link_start}ünénröll{unenroll_link_end} fröm thïs çöürsé Ⱡ'σяєм "
 "ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт,#"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "View Archived Course"
-msgstr "Vïéw Àrçhïvéd Çöürsé Ⱡ'σя#"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-#: lms/templates/shoppingcart/registration_code_receipt.html
-msgid "View Course"
-msgstr "Vïéw Çöürsé Ⱡ#"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Are you sure you want to unenroll from the purchased course"
-msgstr ""
-"Àré ýöü süré ýöü wänt tö ünénröll fröm thé pürçhäséd çöürsé Ⱡ'σяєм ιρѕυм "
-"∂σłσ#"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Are you sure you want to unenroll from"
-msgstr "Àré ýöü süré ýöü wänt tö ünénröll fröm Ⱡ'σяєм ιρѕ#"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid ""
-"Are you sure you want to unenroll from the verified {cert_name_long} track "
-"of"
-msgstr ""
-"Àré ýöü süré ýöü wänt tö ünénröll fröm thé vérïfïéd {cert_name_long} träçk "
-"öf Ⱡ'σяєм ιρѕυм ∂σłσя #"
-
-#: lms/templates/dashboard/_dashboard_course_listing.html
-msgid "Email Settings"
-msgstr "Émäïl Séttïngs Ⱡ'#"
 
 #: lms/templates/dashboard/_dashboard_prompt_midcourse_reverify.html
 #: lms/templates/verify_student/prompt_midcourse_reverify.html
@@ -18170,12 +18179,12 @@ msgstr "À Bröäd Lïßrärý öf Prößlém Týpés Ⱡ'σяєм ι#"
 
 #: cms/templates/howitworks.html
 msgid ""
-"It's more than just multiple choice. Studio supports more than a dozen types"
-" of problems to challenge your learners."
+"It's more than just multiple choice. {studio_name} supports more than a "
+"dozen types of problems to challenge your learners."
 msgstr ""
-"Ìt's möré thän jüst mültïplé çhöïçé. Stüdïö süppörts möré thän ä dözén týpés"
-" öf prößléms tö çhälléngé ýöür léärnérs. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
-"¢σηѕє¢т#"
+"Ìt's möré thän jüst mültïplé çhöïçé. {studio_name} süppörts möré thän ä "
+"dözén týpés öf prößléms tö çhälléngé ýöür léärnérs. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт "
+"αмєт, ¢σηѕє¢#"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -18502,11 +18511,11 @@ msgstr "Whý ïmpört ä lïßrärý? Ⱡ'σя#"
 msgid ""
 "You might want to update an existing library to a new version, or replace an"
 " existing library entirely. You might also have developed a library outside "
-"of Studio."
+"of {studio_name}."
 msgstr ""
 "Ýöü mïght wänt tö üpdäté än éxïstïng lïßrärý tö ä néw vérsïön, ör répläçé än"
 " éxïstïng lïßrärý éntïrélý. Ýöü mïght älsö hävé dévélöpéd ä lïßrärý öütsïdé "
-"öf Stüdïö. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιη#"
+"öf {studio_name}. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ι#"
 
 #: cms/templates/import.html
 msgid "Note: Library content is not automatically updated in courses"

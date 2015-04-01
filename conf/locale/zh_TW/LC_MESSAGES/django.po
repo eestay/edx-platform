@@ -59,7 +59,7 @@
 # Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013-2014
 # LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
 # bhsfmiao <mkr_mkr@163.com>, 2014
-# MOH CHIN LAM <chinlam91@gmail.com>, 2014
+# MOH CHIN LAM <chinlam91@gmail.com>, 2014-2015
 # Nicholas Ou <oldmonou@gmail.com>, 2014
 # Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013-2014
 # Timothy K. Shih <timothykshih@gmail.com>, 2013

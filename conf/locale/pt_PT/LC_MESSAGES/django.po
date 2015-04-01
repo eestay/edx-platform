@@ -47,6 +47,7 @@
 # Translators:
 # Carlos <carlos.c.saraiva@gmail.com>, 2013-2014
 # Carlos <carlos.c.saraiva@gmail.com>, 2013
+# luis miguel mendes soares <luis.miguel.mendes.soares@gmail.com>, 2015
 # TiagoCalado <tiagocalado@hotmail.it>, 2014
 # #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
 # edX translation file

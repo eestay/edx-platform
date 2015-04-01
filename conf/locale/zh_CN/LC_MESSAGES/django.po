@@ -26,7 +26,7 @@
 # Sarina Canelake <sarina@edx.org>, 2014
 # shuchuanchen <am15501@163.com>, 2014
 # riceball <snowyu.lee@gmail.com>, 2014
-# louyihua <supermouselyh@hotmail.com>, 2014
+# louyihua <supermouselyh@hotmail.com>, 2014-2015
 # Jianfei Wang <me@thinxer.com>, 2013
 # 沈世奇 <vicapple22@gmail.com>, 2013
 # wanghe <1636807295@qq.com>, 2014
@@ -170,7 +170,7 @@
 # pku9104038 <pku9104038@hotmail.com>, 2014
 # Scott Huang <sc.h@aol.com>, 2014
 # shuchuanchen <am15501@163.com>, 2014
-# louyihua <supermouselyh@hotmail.com>, 2014
+# louyihua <supermouselyh@hotmail.com>, 2014-2015
 # Jianfei Wang <me@thinxer.com>, 2013
 # tucunchao <tucunchao@gmail.com>, 2013
 # 沈世奇 <vicapple22@gmail.com>, 2013
