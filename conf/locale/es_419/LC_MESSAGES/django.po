@@ -11511,7 +11511,7 @@ msgstr "Envía un correo a tus amigos que te has registrado en este curso"
 #: lms/templates/courseware/course_about.html
 msgid "I just registered for {number} {title} through {account}: {url}"
 msgstr ""
-"Acabo de registrarme para {number} {title} a través de {account}: {url}"
+"Acabo de inscribirme en el curso abierto {title} a través de {account}: {url}"
 
 #: lms/templates/courseware/course_about.html
 msgid "Take a course with {platform} online"
@@ -11520,7 +11520,7 @@ msgstr "Tome un curso en línea con {platform} "
 #: lms/templates/courseware/course_about.html
 msgid "I just registered for {number} {title} through {platform} {url}"
 msgstr ""
-"Acabo de registrarme para {number} {title} a través de {platform} {url}"
+"Acabo de inscribirme en el curso abierto {title} a través de {platform} {url}"
 
 #: lms/templates/courseware/course_about.html
 msgid "Post a Facebook message to say you've registered for this course"
