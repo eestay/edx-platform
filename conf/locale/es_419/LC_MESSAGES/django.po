@@ -11464,7 +11464,7 @@ msgstr "Este curso ya está en su <a href=\"{cart_link}\">carrito</a>."
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
-msgstr "El curso está lleno"
+msgstr "Inscripciones cerradas"
 
 #: lms/templates/courseware/course_about.html
 msgid "Enrollment in this course is by invitation only"
@@ -13173,7 +13173,7 @@ msgid ""
 " account. Click on the link below or copy and paste it into your browser's "
 "address bar."
 msgstr ""
-"Cambie su vida y comience a aprender hoy mismo activando su cuenta en "
+"Comience a aprender hoy mismo activando su cuenta en "
 "{platform_name}. Haga clic en el siguiente enlace o cópielo y péguelo en su "
 "barra de direcciones del navegador."
 
