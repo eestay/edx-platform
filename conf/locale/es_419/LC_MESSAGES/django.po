@@ -10072,7 +10072,7 @@ msgid "Schools"
 msgstr "Instituciones"
 
 #: lms/templates/navigation.html
-msgid "Register Now"
+msgid "Register"
 msgstr "Registrarse"
 
 #: lms/templates/notes.html lms/templates/textannotation.html
