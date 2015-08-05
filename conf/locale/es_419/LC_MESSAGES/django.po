@@ -13542,13 +13542,13 @@ msgstr "Para acceder al curso visite {course_about_url} y regístrese."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
-"To finish your registration, please visit {registration_url} and fill out "
-"the registration form making sure to use {email_address} in the E-mail "
-"field."
+"To finish your registration, please visit {registration_url} and fill "
+"out the registration form making sure to use {email_address} in the E-mail field."
+
 msgstr ""
 "Para concluir su proceso de registro, visite {registration_url} y diligencie"
-" el fomulario asegurándose de utilizar {email_address} en la casilla de "
-"correo electrónico."
+" el fomulario asegurándose de utilizar {email_address} en la casilla de correo electrónico."
+
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
