@@ -5977,7 +5977,7 @@ msgstr "Respuesta del libro de calificaciones remoto para {action}"
 #: lms/djangoapps/instructor/views/legacy.py
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Full name"
-msgstr "Nombre completo"
+msgstr "nombre completo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "{title} in course {course_key}"
@@ -5994,7 +5994,7 @@ msgstr "ID"
 #: lms/templates/verify_student/_modal_editname.html
 #: lms/templates/verify_student/face_upload.html
 msgid "Full Name"
-msgstr "Nombre Completo"
+msgstr "nombre completo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "edX email"
