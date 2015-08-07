@@ -7715,7 +7715,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Restablece Tu Contraseña de %(platform_name)s"
+"Restablece tu contraseña de %(platform_name)s"
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid "Password Reset Form"
