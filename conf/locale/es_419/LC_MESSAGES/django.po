@@ -639,8 +639,8 @@ msgid ""
 "You've successfully logged into your {provider_name} account, but this "
 "account isn't linked with an {platform_name} account yet."
 msgstr ""
-"Ha iniciado sesión exitosamente en su cuenta de {provider_name}, pero está "
-"cuenta no está vinculada aún con una cuenta de {platform_name}."
+"Ha iniciado sesión exitosamente en su cuenta de {provider_name}, pero esta "
+"cuenta aún no está vinculada aún con una cuenta de {platform_name}."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -658,7 +658,7 @@ msgid ""
 "Now</strong> at the top of the page."
 msgstr ""
 "Si todavía no tiene una cuenta de {platform_name}, haga clic en "
-"<strong>Regístrese ahora</strong> en la parte superior de la página."
+"<strong>Regístrese</strong> en la parte superior de la página."
 
 #: common/djangoapps/student/views.py
 msgid "There was an error receiving your login information. Please email us."
@@ -7844,7 +7844,7 @@ msgstr ""
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
 msgstr ""
-"Por favor visite la siguiente página y seleccione una nueva contraseña:"
+"Por favor visite la siguiente página y escoja una nueva contraseña:"
 
 #: lms/templates/registration/password_reset_email.html
 msgid ""
@@ -7856,11 +7856,11 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Thanks for using our site!"
-msgstr "Gracias por usar el sitio!"
+msgstr "Gracias por usar nuestro sitio!"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The %(platform_name)s Team"
-msgstr "El equpo de %(platform_name)s"
+msgstr "El equipo de %(platform_name)s"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
@@ -13170,7 +13170,7 @@ msgid ""
 " account. Click on the link below or copy and paste it into your browser's "
 "address bar."
 msgstr ""
-"Comience a aprender hoy mismo activando su cuenta en "
+"Comience a aprender activando su cuenta en "
 "{platform_name}. Haga clic en el siguiente enlace o cópielo y péguelo en su "
 "barra de direcciones del navegador."
 
@@ -13543,7 +13543,7 @@ msgid ""
 "out the registration form making sure to use {email_address} in the E-mail field."
 
 msgstr ""
-"Para concluir su proceso de registro, visite {registration_url} y diligencie"
+"Para concluir su proceso de registro, visite {registration_url} y complete"
 " el fomulario asegurándose de utilizar {email_address} en la casilla de correo electrónico."
 
 
