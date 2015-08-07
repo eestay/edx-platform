@@ -363,7 +363,7 @@ msgstr "Moderador"
 #: common/djangoapps/django_comment_common/models.py
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Community TA"
-msgstr "TA de la comunidad"
+msgstr "Comunidad"
 
 #: common/djangoapps/django_comment_common/models.py
 #: lms/templates/courseware/course_navigation.html
@@ -462,7 +462,7 @@ msgstr "El correo no puede tener más de %(limit_value)s caracteres."
 
 #: common/djangoapps/student/forms.py
 msgid "You must accept the terms of service."
-msgstr "Debe aceptar los términos y condiciones del servicio."
+msgstr "Debe aceptar los términos y condiciones de uso."
 
 #: common/djangoapps/student/forms.py
 msgid "A level of education is required"
@@ -540,15 +540,15 @@ msgstr "Doctorado"
 
 #: common/djangoapps/student/models.py
 msgid "Master's or professional degree"
-msgstr "Master o postgrado"
+msgstr "Master / Magister"
 
 #: common/djangoapps/student/models.py
 msgid "Bachelor's degree"
-msgstr "Pregrado"
+msgstr "Licenciado / Profesional Universitario / Pregrado"
 
 #: common/djangoapps/student/models.py
 msgid "Associate degree"
-msgstr "Grado asociado"
+msgstr "Técnico-profesional"
 
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
@@ -556,11 +556,11 @@ msgstr "Bachillerato"
 
 #: common/djangoapps/student/models.py
 msgid "Junior secondary/junior high/middle school"
-msgstr "Formación media"
+msgstr "Enseñanza Media o secundaria"
 
 #: common/djangoapps/student/models.py
 msgid "Elementary/primary school"
-msgstr "Primaria"
+msgstr "Educación Básica o primaria"
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'None' refers to the student's level of education
@@ -4893,7 +4893,7 @@ msgstr "Política de privacidad"
 
 #: lms/djangoapps/certificates/views.py
 msgid "Terms of Service &amp; Honor Code"
-msgstr "Términos del servicio &amp; código de honor"
+msgstr "Términos de uso &amp; código de honor"
 
 #. Translators:  This text appears near the top of the certficate and
 #. describes the guarantee provided by edX
@@ -7697,7 +7697,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"Tu contraseña se ha establecido. Puedes seguir adelante e %(link_start)sinciar sesión%(link_end)s ahora."
+"Tu cambio de contraseña se ha realizado. Puedes seguir adelante e %(link_start)siniciar sesión%(link_end)s ahora."
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid ""
@@ -7706,7 +7706,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Restablece Tu Contraseña de %(platform_name)s"
+"Restablece tu contraseña en %(platform_name)s"
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid ""
@@ -8454,9 +8454,9 @@ msgstr "Por favor seleccione su país."
 msgid "Terms of Service and Honor Code"
 msgstr ""
 "#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Términos del servicio y código de honor\n"
+"Términos de uso y código de honor\n"
 "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Términos del Servicio y Código de Honor"
+"Términos de uso y Código de Honor"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "I agree to the {platform_name} {terms_of_service}."
@@ -8474,11 +8474,8 @@ msgstr ""
 #: lms/templates/footer.html lms/templates/static_templates/tos.html
 #, fuzzy
 msgid "Terms of Service"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Términos de Servicio\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Términos del servicio"
+msgstr "Términos de uso"
+
 
 #: openedx/core/djangoapps/user_api/accounts/api.py
 msgid "The '{field_name}' field cannot be edited."
@@ -9521,7 +9518,7 @@ msgid ""
 "{tos_link_start}Terms of Service{tos_link_end} and {honor_link_start}Honor "
 "Code{honor_link_end}"
 msgstr ""
-"{tos_link_start}Términos del servicio{tos_link_end} y "
+"{tos_link_start}Términos de uso{tos_link_end} y "
 "{honor_link_start}Código de Honor{honor_link_end}"
 
 #: lms/templates/forgot_password_modal.html
@@ -9832,11 +9829,11 @@ msgstr "Procesando la información de tu cuenta"
 
 #: lms/templates/login.html
 msgid "Please log in"
-msgstr "Por favor inicie sesión"
+msgstr "Por favor, inicie sesión"
 
 #: lms/templates/login.html
 msgid "to access your account and courses"
-msgstr "para acceder a su cuenta y sus cursos"
+msgstr "para acceder a su cuenta"
 
 #: lms/templates/login.html
 msgid "We're Sorry, {platform_name} accounts are unavailable currently"
@@ -10111,7 +10108,7 @@ msgid ""
 msgstr ""
 "Su usuario, correo electrónico, y nombre completo será enviado a "
 "{destination}, cuando la recolección y uso de esta información esté dentro "
-"de los términos del servicio y la política de privacidad."
+"de los términos de uso y la política de privacidad."
 
 #: lms/templates/provider_login.html
 msgid "Return To %s"
@@ -10164,7 +10161,7 @@ msgstr "Reconocimientos de la Cuenta"
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
 msgid "I agree to the {link_start}Terms of Service{link_end}"
-msgstr "Acepto los {link_start}Términos del Servicio{link_end}"
+msgstr "Acepto los {link_start}Términos de uso{link_end}"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
@@ -10258,7 +10255,7 @@ msgstr "Registrarse en {platform_name}"
 
 #: lms/templates/register.html
 msgid "Create My {platform_name} Account"
-msgstr "Crear Mi Cuenta en {platform_name}"
+msgstr "Crear cuenta en {platform_name}"
 
 #: lms/templates/register.html
 msgid "Welcome!"
@@ -10266,7 +10263,7 @@ msgstr "Bienvenido!"
 
 #: lms/templates/register.html
 msgid "Register below to create your {platform_name} account"
-msgstr "Regístrese a continuación para crear su cuenta en {platform_name}"
+msgstr "Para crear su cuenta en {platform_name}, regístrese a continuación"
 
 #. Translators: provider_name is the name of an external, third-party user
 #. authentication service (like Google or LinkedIn).
@@ -10289,8 +10286,8 @@ msgid ""
 "We just need a little more information before you start learning with "
 "{platform_name}."
 msgstr ""
-"Solo necesitamos un poco más de información antes de que comience a aprender"
-" con {platform_name}."
+"Solo necesitamos un poco más de información antes de comenzar"
+" en {platform_name}."
 
 #: lms/templates/register.html
 msgid "Please complete the following fields to register for an account. "
@@ -10384,7 +10381,7 @@ msgstr "<i>Bienvenido</i> {name}"
 
 #: lms/templates/signup_modal.html
 msgid "Full Name *"
-msgstr "Nombre Completo *"
+msgstr "nombre completo *"
 
 #: lms/templates/signup_modal.html
 msgid "Ed. Completed"
@@ -13521,14 +13518,14 @@ msgstr ""
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "Dear student,"
-msgstr "Apreciado estudiante,"
+msgstr "Estimado estudiante,"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
 "You have been invited to join {course_name} at {site_name} by a member of "
 "the course staff."
 msgstr ""
-"Ha sido invitado para participar como miembro del equipo para el curso "
+"Ha sido invitado por un miembro del equipo académico a participar en el curso "
 "{course_name} en {site_name}."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
@@ -19329,7 +19326,7 @@ msgstr "Ubicación"
 
 #: cms/templates/register.html
 msgid "I agree to the {a_start} Terms of Service {a_end}"
-msgstr "Acepto los {a_start}Términos del Servicio{a_end}"
+msgstr "Acepto los {a_start}Términos de uso{a_end}"
 
 #: cms/templates/register.html
 msgid "Create My Account &amp; Start Authoring Courses"
