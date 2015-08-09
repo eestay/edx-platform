@@ -540,7 +540,7 @@ msgstr "Doctorado"
 
 #: common/djangoapps/student/models.py
 msgid "Master's or professional degree"
-msgstr "Master / Magister"
+msgstr "Master / Magíster"
 
 #: common/djangoapps/student/models.py
 msgid "Bachelor's degree"
@@ -548,7 +548,7 @@ msgstr "Licenciado / Profesional Universitario / Pregrado"
 
 #: common/djangoapps/student/models.py
 msgid "Associate degree"
-msgstr "Técnico-profesional"
+msgstr "Técnico profesional"
 
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
@@ -5977,7 +5977,7 @@ msgstr "Respuesta del libro de calificaciones remoto para {action}"
 #: lms/djangoapps/instructor/views/legacy.py
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Full name"
-msgstr "nombre completo"
+msgstr "Nombre completo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "{title} in course {course_key}"
@@ -5994,7 +5994,7 @@ msgstr "ID"
 #: lms/templates/verify_student/_modal_editname.html
 #: lms/templates/verify_student/face_upload.html
 msgid "Full Name"
-msgstr "nombre completo"
+msgstr "Nombre completo"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "edX email"
@@ -10381,7 +10381,7 @@ msgstr "<i>Bienvenido</i> {name}"
 
 #: lms/templates/signup_modal.html
 msgid "Full Name *"
-msgstr "nombre completo *"
+msgstr "Nombre completo *"
 
 #: lms/templates/signup_modal.html
 msgid "Ed. Completed"
