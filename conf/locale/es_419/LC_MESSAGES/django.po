@@ -11529,11 +11529,11 @@ msgstr "Inicio de clases"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes End"
-msgstr "Termino de clases"
+msgstr "Término de clases"
 
 #: lms/templates/courseware/course_about.html
 msgid "Estimated Effort"
-msgstr "Esfuerzo estimado"
+msgstr "dedicación estimada horas/semana"
 
 #: lms/templates/courseware/course_about.html
 msgid "Price"
