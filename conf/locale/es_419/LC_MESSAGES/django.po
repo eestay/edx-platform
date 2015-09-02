@@ -11533,7 +11533,7 @@ msgstr "Término de clases"
 
 #: lms/templates/courseware/course_about.html
 msgid "Estimated Effort"
-msgstr "dedicación estimada horas/semana"
+msgstr "Dedicación estimada horas/semana"
 
 #: lms/templates/courseware/course_about.html
 msgid "Price"
