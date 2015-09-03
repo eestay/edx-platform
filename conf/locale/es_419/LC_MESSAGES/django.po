@@ -13239,7 +13239,7 @@ msgstr "Activar tu cuenta en {platform_name}"
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid "Dear {full_name}"
-msgstr "Apreciado {full_name}"
+msgstr "Estimado {full_name}"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 msgid ""
@@ -13807,7 +13807,7 @@ msgstr "Usted ha sido eliminado de la prueba beta para el curso {course_name}"
 
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid "Dear Student,"
-msgstr "Apreciado estudiante,"
+msgstr "Estimado estudiante,"
 
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid ""
