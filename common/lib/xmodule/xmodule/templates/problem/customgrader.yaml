@@ -39,7 +39,7 @@ data: |
     
           <solution>
               <div class="detailed-solution">
-                  <p>Explanation</p>
+            icaciónp>Explicación</p>
                   <p>Any set of integers on the line \(y = 10 - x\) and \(y = 20 - x\) satisfy these constraints.</p>
                   <p>You can also add images within the solution clause like so:</p>
                   <img src="/static/images/placeholder-image.png"/>

@@ -173,7 +173,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>Pi, or the the ratio between a circle's circumference to its diameter, is an irrational number known to extreme precision. It is value is approximately equal to 3.14.</p>
 
@@ -249,7 +249,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>The release of the iPod allowed consumers to carry their entire music library with them in a format that did not rely on fragile and energy-intensive spinning disks.</p>
 
@@ -292,7 +292,7 @@ describe 'MarkdownEditingDescriptor', ->
         
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
         
         <p>The release of the iPod allowed consumers to carry their entire music library with them in a format that did not rely on fragile and energy-intensive spinning disks.</p>
 
@@ -347,7 +347,7 @@ describe 'MarkdownEditingDescriptor', ->
         
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
         
         <p>When the student is ready, the explanation appears.</p>
         
@@ -380,7 +380,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>Multiple Choice also allows students to select from a variety of pre-written responses, although the format makes it easier for students to read very long response options. Optionresponse also differs slightly because students are more likely to think of an answer and then search for it rather than relying purely on recognition to answer the question.</p>
 
@@ -411,7 +411,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>Lansing is the capital of Michigan, although it is not Michgan's largest city, or even the seat of the county in which it resides.</p>
 
@@ -434,7 +434,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>Test Explanation.</p>
 
@@ -463,7 +463,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>Test Explanation.</p>
 
@@ -492,7 +492,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>Test Explanation.</p>
 
@@ -516,7 +516,7 @@ describe 'MarkdownEditingDescriptor', ->
     
     <solution>
     <div class="detailed-solution">
-    <p>Explanation</p>
+    <p>Explicación</p>
     
     <p>Test Explanation.</p>
     
@@ -753,7 +753,7 @@ describe 'MarkdownEditingDescriptor', ->
 
         <solution>
         <div class="detailed-solution">
-        <p>Explanation</p>
+        <p>Explicación</p>
 
         <p>see</p>
         </div>
