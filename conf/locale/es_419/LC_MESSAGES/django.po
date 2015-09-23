@@ -16192,7 +16192,7 @@ msgid "The following error occurred while editing your name:"
 msgstr "Ocurrió el siguiente error en la edición de su nombre:"
 
 #: lms/templates/verify_student/_modal_editname.html
-msgid"To uphold the credibility of {platform} certificates, all name changes will be logged and recorded."
+msgid "To uphold the credibility of {platform} certificates, all name changes will be logged and recorded."
 msgstr "Para mantener la credibilidad de su Constancia {platform}, se registrarán todos los cambios de nombre."
 
 #: lms/templates/verify_student/_modal_editname.html
@@ -20908,3 +20908,20 @@ msgid ""
 msgstr ""
 "Una nueva revisión ha sido creada: Fusión entre la revisión #%(r1)d y la "
 "revisión #%(r2)d"
+
+#: lms/templates/dashboard.html
+msgid "Change My Name"
+msgstr "Cambiar mi nombre"
+
+#: lms/templates/dashboard.html
+msgid "Enter your desired full name, as it will appear on your {platform} {cert_name_short}:"
+msgstr "Escriba su nombre completo, tal como debe aparecer en su Constancia de {platform}:"
+
+#: lms/templates/dashboard.html
+msgid "To uphold the credibility of your {platform} {cert_name_short}, all name changes will be recorded."
+msgstr "Para mantener la credibilidad de su Constancia {platform}, se registrarán todos los cambios de nombre."
+
+#: lms/templates/dashboard.html
+msgid "Change your name"
+msgstr "Cambio de nombre" 
+
