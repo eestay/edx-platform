@@ -16192,14 +16192,8 @@ msgid "The following error occurred while editing your name:"
 msgstr "Ocurrió el siguiente error en la edición de su nombre:"
 
 #: lms/templates/verify_student/_modal_editname.html
-msgid ""
-"To uphold the credibility of {platform} certificates, all name changes will "
-"be logged and recorded."
-msgstr ""
-"Para mantener la credibilidad de su Constancia {platform},"
-"se registrarán todos los cambios de nombre."
-#"Para garantizar la credibilidad de los certificados de la plataforma "
-#"{platform}, todos los cambios de nombres serán registrados y almacenados."
+msgid"To uphold the credibility of {platform} certificates, all name changes will be logged and recorded."
+msgstr "Para mantener la credibilidad de su Constancia {platform}, se registrarán todos los cambios de nombre."
 
 #: lms/templates/verify_student/_modal_editname.html
 msgid "Reason for name change:"
