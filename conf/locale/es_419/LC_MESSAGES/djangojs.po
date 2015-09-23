@@ -6643,6 +6643,3 @@ msgid "Use Current Transcript"
 msgstr "Usar la transcripción actual"
 
 
-#: common/lib/xmodule/xmodule/js/spec/problem/edit_spec.js
-msgid "<p>Explanation</p>"
-msgstr"<p>Explicación</p>"
