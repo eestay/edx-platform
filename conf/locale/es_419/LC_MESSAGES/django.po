@@ -13516,7 +13516,7 @@ msgid "Request to change {platform_name} account e-mail"
 msgstr ""
 "Solicitud de cambio de correo electrónico en una cuenta de {platform_name}"
 
-#: lms/templates/emails/enroll_email_allowedmessage.txt
+#: lms/templates/emails/enroll_email_allowedmessage.txt:3
 msgid "Dear student,"
 msgstr "Estimado estudiante,"
 
