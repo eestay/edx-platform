@@ -13569,10 +13569,8 @@ msgid "You can then enroll in {course_name}."
 msgstr "Usted puede ahora inscribirse en el curso {course_name}."
 
 #: lms/templates/emails/enroll_email_allowedsubject.txt
-msgid ""
-"You have been invited to register for {course_name}"
-msgstr ""
-"Usted ha sido invitado para registrarse al curso {course_name}"
+msgid "You have been invited to register for {course_name}"
+msgstr "Usted ha sido invitado para registrarse al curso {course_name}"
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 msgid ""
@@ -13584,10 +13582,11 @@ msgstr ""
 "principal de {site_name}."
 
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
-#: lms/templates/emails/unenroll_email_enrolledmessage.txt
+#: lms/templates/emails/enroll_email_allowedsubject.txt
 msgid "This email was automatically sent from {site_name} to {full_name}"
 msgstr "Este correo fue enviado automáticamente por {site_name} a {full_name}"
 
+#: lms/templates/emails/enroll_email_enrolledsubject.txt
 #: lms/templates/emails/enroll_email_enrolledsubject.txt
 msgid "You have been enrolled in {course_name}"
 msgstr "Usted ha sido inscrito en el curso {course_name}"
