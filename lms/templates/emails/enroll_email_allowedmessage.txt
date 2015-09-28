@@ -39,5 +39,6 @@ ${_("You can then enroll in {course_name}.").format(course_name=course.display_n
 ----
 ${_("This email was automatically sent from {site_name} to "
 	"{email_address}").format(
-		site_name=site_name, email_address=email_address
+	site_name=site_name, email_address=email_address
 	)}
+
