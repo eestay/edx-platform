@@ -6642,4 +6642,6 @@ msgstr ""
 msgid "Use Current Transcript"
 msgstr "Usar la transcripción actual"
 
-
+#: lms/templates/dashboard.html
+msgid "Reset Password"
+msgstr "Restaurar contraseña"

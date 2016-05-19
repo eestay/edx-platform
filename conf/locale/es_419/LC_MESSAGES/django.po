@@ -12162,7 +12162,7 @@ msgstr "Puntuación de prácticas:"
 
 #: lms/templates/courseware/progress.html
 msgid "No problem scores in this section"
-msgstr "No hay puntuación de problemas en esta sección"
+msgstr "No hay problemas calificados en esta sección"
 
 #: lms/templates/courseware/syllabus.html
 msgid "{course.display_number_with_default} Course Info"
@@ -20924,4 +20924,26 @@ msgstr "Para mantener la credibilidad de su Constancia {platform}, se registrar�
 #: lms/templates/dashboard.html
 msgid "Change your name"
 msgstr "Cambio de nombre" 
+
+#: lms/templates/dashboard.html lms/templates/dashboard.html
+msgid "Change Email"
+msgstr "Cambio de correo electrónico"
+
+#: lms/templates/dashboard.html
+msgid "Please enter your new email address:"
+msgstr "Ingrese su nuevo correo electrónico:"
+
+
+#: lms/templates/dashboard.html
+msgid "Please confirm your password:"
+msgstr "Confirme su clave:"
+
+#: lms/templates/dashboard.html
+msgid ""
+"We will send a confirmation to both {email} and your new email as part of "
+"the process."
+msgstr "Enviaremos un correo de confirmación a {email} y a su cuenta nueva como parte del proceso."
+
+
+
 
