@@ -9111,7 +9111,8 @@ msgstr "Navegación del curso"
 msgid "Help"
 msgstr "Ayuda"
 
-#: cms/templates/widgets/header.html lms/templates/navigation-edx.html
+#: cms/templates/widgets/header.html
+#: lms/templates/navigation-edx.html
 #: lms/templates/navigation.html
 msgid "Sign Out"
 msgstr "Cerrar sesión"
@@ -20943,6 +20944,11 @@ msgid ""
 "We will send a confirmation to both {email} and your new email as part of "
 "the process."
 msgstr "Enviaremos un correo de confirmación a {email} y a su cuenta nueva como parte del proceso."
+
+
+#: lms/templates/dashboard.html
+msgid "Reset Password"
+msgstr "Restaurar contraseña"
 
 
 
