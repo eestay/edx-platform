@@ -20928,7 +20928,7 @@ msgstr "Cambio de nombre"
 
 #: lms/templates/dashboard.html lms/templates/dashboard.html
 msgid "Change Email"
-msgstr "Cambio de correo electrónico"
+msgstr "Cambiar correo electrónico"
 
 #: lms/templates/dashboard.html
 msgid "Please enter your new email address:"
