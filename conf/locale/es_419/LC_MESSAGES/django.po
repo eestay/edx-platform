@@ -20948,6 +20948,10 @@ msgstr "Enviaremos un correo de confirmación a {email} y a su cuenta nueva como
 msgid "Reset Password"
 msgstr "Restaurar contraseña"
 
+#: lms/templates/dashboard.html
+msgid "An email has been sent to {email}. Follow the link in the email to change your password."
+msgstr "Hemos enviado un correo electrónico a {email} Siga el link enviado para terminar de cambiar su contraseña."
+
 
 
 
