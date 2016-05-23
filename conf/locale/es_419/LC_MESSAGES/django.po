@@ -9115,7 +9115,7 @@ msgstr "Ayuda"
 #: cms/templates/widgets/header.html
 #: lms/templates/navigation-edx.html
 msgid "Sign Out"
-msgstr "Cerrar sesión"
+msgstr "Salir"
 
 #: common/templates/course_modes/choose.html
 msgid "Upgrade Your Enrollment for {} | Choose Your Track"
