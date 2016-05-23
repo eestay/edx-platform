@@ -20940,7 +20940,7 @@ msgid "Please confirm your password:"
 msgstr "Confirme su clave:"
 
 #: lms/templates/dashboard.html
-msgid "We will send a confirmation to both {email} and your new email as part of the process."
+msgid "We will send a confirmation to both {email} and your new email address as part of the process."
 msgstr "Enviaremos un correo de confirmación a {email} y a su cuenta nueva como parte del proceso."
 
 
