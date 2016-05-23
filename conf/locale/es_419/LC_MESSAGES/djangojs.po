@@ -3496,12 +3496,12 @@ msgstr "Contraseña"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Reset your Password"
-msgstr "Restablecer su contraseña"
+msgstr "Restaurar su contraseña"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/templates/student_account/account.underscore
 msgid "Reset Password"
-msgstr "Restablecer Contraseña"
+msgstr "Restaurar contraseña"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -5203,8 +5203,9 @@ msgstr ""
 "configuración de cuentas de %(platformName)s."
 
 #: lms/templates/student_account/login.underscore
+#: lms/templates/dashboard.html
 msgid "Password Reset Email Sent"
-msgstr "El correo para restablecer contraseña ha sido enviado."
+msgstr "Envío de correo electrónico para restaurar contraseña"
 
 #: lms/templates/student_account/login.underscore
 msgid ""
@@ -6641,7 +6642,3 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "Usar la transcripción actual"
-
-#: lms/templates/dashboard.html
-msgid "Reset Password"
-msgstr "Restaurar contraseña"
