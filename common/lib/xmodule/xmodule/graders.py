@@ -371,7 +371,7 @@ class AssignmentFormatGrader(CourseGrader):
                 percent=total_percent,
                 section_type=self.section_type
             )
-            total_label = u"{short_label} Avg".format(short_label=self.short_label)
+            total_label = u"{short_label} Promedio".format(short_label=self.short_label)
 
             if self.show_only_average:
                 breakdown = []
