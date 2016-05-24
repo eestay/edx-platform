@@ -4846,7 +4846,7 @@ msgstr "Esta publicación es visible para todos."
 
 #: common/templates/js/discussion/thread-show.underscore
 msgid "%(post_type)s posted %(time_ago)s by %(author)s"
-msgstr "%(post_type)s publicados %(time_ago)s por %(author)s"
+msgstr "%(post_type)s publicada %(time_ago)s por %(author)s"
 
 #: common/templates/js/discussion/thread-show.underscore
 msgid "Pinned"
@@ -6642,3 +6642,12 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "Usar la transcripción actual"
+
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "discussion"
+msgstr "discusión"
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "question"
+msgstr "pregunta"

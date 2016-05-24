@@ -12778,6 +12778,7 @@ msgid "Update comment"
 msgstr "Actualizar comentario"
 
 #: lms/templates/discussion/_underscore_templates.html
+#: common/templates/js/discussion/thread-show.underscore
 msgid "discussion"
 msgstr "discusión"
 
