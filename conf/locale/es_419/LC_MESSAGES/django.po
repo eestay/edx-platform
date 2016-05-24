@@ -20952,6 +20952,9 @@ msgstr "Restaurar contraseña"
 msgid "An email has been sent to {email}. Follow the link in the email to change your password."
 msgstr "Hemos enviado un correo electrónico a {email} Siga el link enviado para terminar de cambiar su contraseña."
 
-
+#: lms/templates/student_account/login.underscore
+#: lms/templates/dashboard.html
+msgid "Password Reset Email Sent"
+msgstr "Envío de correo electrónico para restaurar contraseña"
 
 
