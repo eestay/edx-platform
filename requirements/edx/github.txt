@@ -32,6 +32,7 @@ git+https://github.com/mitocw/django-cas.git@60a5b8e5a62e63e0d5d224a87f0b489201a
 ####-e git+https://github.com/eestay/edx-ora2.git@release-2015-03-27T14.32#egg=edx-ora2
 #-e git+https://github.com/victoria-valdes/edx-ora2#egg=edx-ora2
 -e git+https://github.com/Lyla-Fischer/custom_html_XBlock.git#egg=edx-ora2
+-e https://github.com/AntimonSb/tinymcexblock.git#egg=edx-tinymcexblock
 
 -e git+https://github.com/edx/edx-submissions.git@8fb070d2a3087dd7656d27022e550d12e3b85ba3#egg=edx-submissions
 -e git+https://github.com/edx/opaque-keys.git@1254ed4d615a428591850656f39f26509b86d30a#egg=opaque-keys
