@@ -40,7 +40,7 @@ git+https://github.com/mitocw/django-cas.git@60a5b8e5a62e63e0d5d224a87f0b489201a
 # -e git+https://github.com/eestay/edx-ora2.git@87c722aa597ad993159da57889e1b17f661bab96#egg=edx-ora2
 
 ####  prueba branch upload_dev en repo de eestay
--e git+https://github.com/eestay/edx-ora2.git@64dc80f6e0693632b0996eb11382d8490f7538c4#egg=edx-ora2
+-e git+https://github.com/eestay/edx-ora2.git@36030d6c6883f6caa8ae75c9848d21c8b08c2825#egg=edx-ora2
 
 -e git+https://github.com/edx/edx-submissions.git@8fb070d2a3087dd7656d27022e550d12e3b85ba3#egg=edx-submissions
 -e git+https://github.com/edx/opaque-keys.git@1254ed4d615a428591850656f39f26509b86d30a#egg=opaque-keys
