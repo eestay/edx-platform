@@ -6,6 +6,7 @@ from django.conf.urls.static import static
 import django.contrib.auth.views
 from microsite_configuration import microsite
 import oauth_exchange.views
+from openassessment.fileupload.urls import urlpatterns as oraurlpatterns
 
 # Uncomment the next two lines to enable the admin:
 if settings.DEBUG or settings.FEATURES.get('ENABLE_DJANGO_ADMIN_SITE'):
@@ -630,3 +631,6 @@ urlpatterns += (
     url(r'404', handler404),
     url(r'500', handler500),
 )
+
+
+urlpatterns+= oraurlpatterns

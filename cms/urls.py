@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.conf.urls import patterns, include, url
+from openassessment.fileupload.urls import urlpatterns as oraurlpatterns
 
 # There is a course creators admin table.
 from ratelimitbackend import admin
@@ -189,3 +190,6 @@ urlpatterns += (
     url(r'404', handler404),
     url(r'500', handler500),
 )
+
+
+urlpatterns+= oraurlpatterns
