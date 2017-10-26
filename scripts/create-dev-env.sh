@@ -446,7 +446,7 @@ DISTRIBUTE_VER="0.6.28"
 output "Building Distribute"
 SITE_PACKAGES="$WORKON_HOME/edx-platform/lib/python2.7/site-packages"
 cd "$SITE_PACKAGES"
-curl -sSLO http://pypi.python.org/packages/source/d/distribute/distribute-${DISTRIBUTE_VER}.tar.gz
+curl -sSLO https://pypi.python.org/packages/source/d/distribute/distribute-${DISTRIBUTE_VER}.tar.gz
 tar -xzvf distribute-${DISTRIBUTE_VER}.tar.gz
 cd distribute-${DISTRIBUTE_VER}
 python setup.py install
